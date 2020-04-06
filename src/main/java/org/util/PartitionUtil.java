@@ -18,10 +18,10 @@ public class PartitionUtil {
      */
     public static <T> List<List<T>> partition(List<T> list, int size) {
         if (list == null) {
-            throw new IllegalArgumentException("la liste ne doit pas être nul.");
+            throw new IllegalArgumentException("la liste ne doit pas être nulle.");
         }
         if (size < 1) {
-            throw new IllegalArgumentException("la taille doit être strictement supérieur à 0.");
+            throw new IllegalArgumentException("la taille doit être strictement supérieure à 0.");
         }
 
         List<List<T>> lists = new ArrayList<>();
