@@ -8,7 +8,7 @@ Veuillez éxecuter les commandes suivantes dans le dossier désiré pour rapatri
 ```
 git init
 git remote add origin https://github.com/chimizou/Partition.git
-git pull origin
+git pull origin master
 ```
 ### Prérequis
 
